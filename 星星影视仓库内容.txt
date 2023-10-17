@@ -1,0 +1,207 @@
+//公众号（满天星悦来开心）
+//公众号（满天星悦来开心）
+//公众号（满天星悦来开心）
+
+{
+    "sites": [
+        {
+			"key": "csp_xml_量子资源",
+			"name": "量子资源┃集简影视",
+			"type": 1,
+			"api": "http://cj.lziapi.com/api.php/provide/vod/",
+			"playUrl": "",
+			"searchable": 1,
+			"quickSearch": 1,
+			"categories": [
+				"国产动漫",
+				"国产剧",
+				"动作片",
+				"喜剧片",
+				"爱情片",
+				"动画片",
+				"冒险片",
+				"武侠片",
+				"科幻片",
+				"战争片",
+				"日韩剧",
+				"港台剧",
+				"欧美剧",
+				"泰国剧",
+				"海外剧",
+				"日韩动漫",
+				"欧美动漫",
+				"国内综艺",
+				"海外综艺",
+				"恐怖片",
+				"灾难片",
+				"悬疑片",
+				"纪录片",
+				"惊悚片",
+				"奇幻片",
+				"剧情片"
+			]
+		},
+        {
+            "key": "csp_Kunyu77",
+            "name": "七七影视",
+            "type": 3,
+            "api": "csp_Kunyu77",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "weight": 99
+        },
+        {
+            "key": "爱迪V2",
+            "name": "爱迪影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://api123.adys.app/xgapp.php/v3/",
+            "weight": 93
+        },
+        {
+            "key": "csp_apple",
+            "name": "苹果影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "weight": 97
+        },
+        {
+            "key": "csp_XYQBiu_聚合短视频",
+            "name": "短视频",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "http://162.14.115.43:12546/230622/短视频.json"
+        },
+        {
+            "key": "csp_XBPQ_JOJO",
+            "name": "五星推荐",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "http://up.heimao.nl/230623/t5.jar;md5;D10047AD127888E9588E38BDC0817CDD",
+            "ext": {
+                "二次截取": "class=\"content-body\"&&class=\"content-lift\"",
+                "数组": "",
+                "图片": "src=\"&&\"",
+                "标题": "class=\"card-title\">&&\n\n",
+                "副标题": "class=\"item-speed\">&&\n\n",
+                "链接": "href=\"&&\"",
+                "播放数组": "class=\"plyr-sidebar-list&&",
+                "嗅探词": "aliyundrive.net#cn-beijing-data",
+                "搜索url": "https://app.syrme.top/video/search?q={wd}",
+                "分类": "电影$电影#美剧$美剧#日剧$日剧#韩剧$韩剧#动漫$动漫#纪录$纪录",
+                "分类url": "https://app.syrme.top/video/type/tag?type={cateId}&tag=&page={catePg}&size=18;;u0"
+            },
+            "weight": 98
+        },
+        {
+            "key": "csp_appys_酷影",
+            "name": "酷影影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://ys.realdou.cn/api.php/app/",
+            "jar": "https://lantongxue.cc/vcbx/jar/for.jar",
+            "weight": 94
+        },
+        {
+            "key": "csp_AppTT",
+            "name": "图图影视",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "U2c3aDRRb0xMQnpWVjRhY1NSSyNIdW8wTkVCZG91ZWw=$$$U3FYMms0cWJZR2kzbzZzWQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ==",
+            "weight": 94
+        },
+        {
+            "key": "csp_DiDuan",
+            "name": "低端影视",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "click": "ddys.tv;#vjsp > button",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "weight": 97
+        },
+        {
+            "key": "csp_Bttoo",
+            "name": "Btto影视",
+            "api": "csp_Bttwoo",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "weight": 95
+        },
+        {
+            "key": "drpy_js_厂长资源",
+            "name": "厂长影视",
+            "type": 3,
+            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "ext": "http://162.14.115.43:12546/lan/czzy.js",
+            "weight": 97
+        },
+        {
+            "key": "csp_FanYY",
+            "name": "玩偶姐姐",
+            "type": 3,
+            "api": "csp_WoGG",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://js.134584.xyz/json/token.txt$$$https://wogg.xyz/",
+            "weight": 89
+        },
+        {
+            "key": "Kuaikan",
+            "name": "快看影视",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Lib",
+            "name": "Lib影视",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://tv.libvio.cc",
+            "weight": 97
+        },
+        {
+            "key": "Lezhu",
+            "name": "乐猪影视",
+            "api": "csp_XBPQ",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "ext": "http://我不是.肥猫.love:63/json/乐猪.json",
+            "weight": 89
+        },
+        {
+            "key": "drpy_js_奇珍异兽",
+            "name": "奇艺视频",
+            "type": 3,
+            "api": "http://alist.xn--z7x900
